@@ -183,11 +183,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_up_down>;
 
             bindings = <
-&kp CARET      &kp Q      &kp W      &kp E         &kp R         &kp T       &kp Y          &kp U        &kp I            &kp O       &kp P      &kp DOLLAR
-&kp TAB        &kp A      &kp S      &kp D         &kp F         &kp G       &kp H          &kp J        &kp K            &kp L       &kp COLON  &kp BACKSPACE
-&mo 1          &kp Z      &kp X      &kp C         &kp V         &kp B       &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp SLASH  &kp BSLH
-&kp LG(SPACE)  &kp GRAVE  &kp UNDER  &kp SPACE     &kp ESCAPE    &kp ESCAPE  &kp AT         &kp ENTER    &kp LEFT_SHIFT   &kp HASH    &kp SEMI   &kp EXCL
-                          &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &none       &allow_pageup  &allow_home  &allow_pagedown  &allow_end
+&kp CARET      &kp Q      &kp W      &kp E         &kp R         &kp T  &kp Y          &kp U        &kp I            &kp O       &kp P      &kp DOLLAR
+&kp TAB        &kp A      &kp S      &kp D         &kp F         &kp G  &kp H          &kp J        &kp K            &kp L       &kp COLON  &kp BACKSPACE
+&mo 1          &kp Z      &kp X      &kp C         &kp V         &kp B  &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp SLASH  &kp BSLH
+&kp LG(SPACE)  &kp GRAVE  &kp UNDER  &kp SPACE     &kp ESCAPE    &mo 3  &kp AT         &kp ENTER    &kp LEFT_SHIFT   &kp HASH    &kp SEMI   &kp EXCL
+                          &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 2  &allow_pageup  &allow_home  &allow_pagedown  &allow_end
             >;
         };
 
@@ -199,7 +199,7 @@
 &none   &none   &none      &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP    &kp PRINTSCREEN  &kp AMPERSAND  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
 &trans  &none   &none      &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME       &kp ASTERISK     &kp PERCENT    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
 &trans  &trans  &trans     &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PAGE_DOWN  &kp KP_MINUS     &kp KP_PLUS    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&trans  &trans  &trans     &mo 2     &mo 3                 &none                  &trans         &kp HOME         &kp K_CMENU    &kp KP_NUMBER_0  &dot_comma       &kp EQUAL
+&trans  &trans  &trans     &none     &mo 3                 &none                  &trans         &kp HOME         &kp K_CMENU    &kp KP_NUMBER_0  &dot_comma       &kp EQUAL
                 &kp RIGHT  &kp DOWN  &kp LEFT_ARROW        &kp UP_ARROW           &trans         &trans           &trans         &trans
             >;
         };
