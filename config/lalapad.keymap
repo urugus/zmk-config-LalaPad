@@ -183,11 +183,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_up_down>;
 
             bindings = <
-&kp CARET      &kp Q      &kp W      &kp E         &kp R         &kp T  &kp Y          &kp U        &kp I            &kp O       &kp P      &kp DOLLAR
-&kp TAB        &kp A      &kp S      &kp D         &kp F         &kp G  &kp H          &kp J        &kp K            &kp L       &kp COLON  &kp BACKSPACE
-&mo 1          &kp Z      &kp X      &kp C         &kp V         &kp B  &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp SLASH  &kp BSLH
-&kp LG(SPACE)  &kp GRAVE  &kp UNDER  &kp SPACE     &kp ESCAPE    &mo 3  &kp AT         &kp ENTER    &kp LEFT_SHIFT   &kp HASH    &kp SEMI   &kp EXCL
-                          &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 2  &allow_pageup  &allow_home  &allow_pagedown  &allow_end
+&kp CARET    &kp Q      &kp W      &kp E         &kp R         &kp T  &kp Y          &kp U        &kp I            &kp O       &kp P      &kp DOLLAR
+&kp TAB      &kp A      &kp S      &kp D         &kp F         &kp G  &kp H          &kp J        &kp K            &kp L       &kp COLON  &kp BACKSPACE
+&mo 1        &kp Z      &kp X      &kp C         &kp V         &kp B  &kp N          &kp M        &kp COMMA        &kp PERIOD  &kp SLASH  &kp BSLH
+&kp AT_SIGN  &kp GRAVE  &kp UNDER  &kp SPACE     &kp ESCAPE    &mo 3  &kp LG(SPACE)  &kp ENTER    &kp LEFT_SHIFT   &kp HASH    &kp SEMI   &kp EXCL
+                        &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 2  &allow_pageup  &allow_home  &allow_pagedown  &allow_end
             >;
         };
 
