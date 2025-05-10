@@ -194,11 +194,11 @@
         MARKS_LAYER {
             display-name = "mouse_l_layer";
             bindings = <
-&trans  &trans     &trans       &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none     &trans     &trans             &trans     &trans  &trans
-&trans  &kp TILDE  &kp PERCENT  &kp PIPE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH  &kp ASTRK  &kp UNDER          &kp EQUAL  &trans  &trans
-&trans  &trans     &trans       &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp SQT    &kp DOUBLE_QUOTES  &kp SEMI   &trans  &trans
-&trans  &trans     &trans       &trans    &trans                &trans                 &trans    &trans     &mo 3              &trans     &trans  &trans
-                   &trans       &trans    &trans                &trans                 &trans    &trans     &trans             &trans
+&trans  &trans     &trans       &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &trans     &trans             &trans     &trans  &trans
+&trans  &kp TILDE  &kp PERCENT  &kp PIPE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH   &kp ASTRK  &kp UNDER          &kp EQUAL  &trans  &trans
+&trans  &trans     &trans       &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp SQT    &kp DOUBLE_QUOTES  &kp SEMI   &trans  &trans
+&trans  &trans     &trans       &trans    &trans                &trans                 &trans     &trans     &mo 3              &trans     &trans  &trans
+                   &trans       &trans    &trans                &trans                 &trans     &trans     &trans             &trans
             >;
         };
 
