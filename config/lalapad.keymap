@@ -200,11 +200,17 @@
 &trans  &trans     &trans    &trans    &trans                &trans                 &trans     &trans     &mo 3              &trans     &trans  &trans
                    &trans    &trans    &trans                &trans                 &trans     &trans     &trans             &trans
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
-            sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
+            sensor-bindings =
+                <&inc_dec_kp C_MENU_UP C_MENU_DOWN>,
+                <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
 
             bindings = <
 &none   &none   &none      &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
@@ -225,7 +231,9 @@
                               &trans                &trans                &trans                &trans          &trans                &trans                &trans                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings =
+                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
         };
 
         MOUSE_R_LAYER {
