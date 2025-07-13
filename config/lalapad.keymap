@@ -119,7 +119,8 @@
         auto_mouse_r: auto_mouse_r {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            continue-list = <>;
+            continue-list = <LCLK RCLK MCLK MB1 MB2 MB3 MB4 MB5 
+                            SCRL_UP SCRL_DOWN SCRL_LEFT SCRL_RIGHT>;
             if-layers = <MOUSE_R_LAYER>;
             then-layer = <DEFAULT_LAYER>;
             timeout-ms = <500>;
@@ -128,7 +129,8 @@
         auto_mouse_l: auto_mouse_l {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            continue-list = <>;
+            continue-list = <LCLK RCLK MCLK MB1 MB2 MB3 MB4 MB5 
+                            SCRL_UP SCRL_DOWN SCRL_LEFT SCRL_RIGHT>;
             if-layers = <MOUSE_L_LAYER>;
             then-layer = <DEFAULT_LAYER>;
             timeout-ms = <500>;
