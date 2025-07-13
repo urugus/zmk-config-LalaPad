@@ -186,7 +186,7 @@
 &kp CARET         &kp Q          &kp W            &kp E           &kp R           &kp T         &kp Y          &kp U        &kp I            &kp O       &kp P          &kp DOLLAR
 &kp LEFT_CONTROL  &kp A          &kp S            &kp D           &kp F           &kp G         &kp H          &kp J        &kp K            &kp L       &kp COLON      &kp AT_SIGN
 &mo 2             &kp Z          &kp X            &kp C           &kp V           &kp B         &kp N          &kp M        &kp COMMA        &kp PERIOD  &mo 1          &kp LEFT_COMMAND
-&kp LEFT_ALT      &kp AMPERSAND  &kp HASH         &kp LEFT_SHIFT  &kp ESCAPE      &kp TAB       &kp BACKSPACE  &kp ENTER    &kp SPACE        &kp GRAVE   &kp BACKSLASH  &kp SLASH
+&kp LEFT_ALT      &kp AMPERSAND  &kp HASH         &kp SPACE       &kp ESCAPE      &kp TAB       &kp BACKSPACE  &kp ENTER    &kp RIGHT_SHIFT  &kp GRAVE   &kp BACKSLASH  &kp SLASH
                                  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp UP_ARROW  &allow_pageup  &allow_home  &allow_pagedown  &allow_end
             >;
         };
@@ -197,7 +197,7 @@
 &trans  &trans     &trans    &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans     &trans             &trans     &trans  &trans
 &trans  &kp TILDE  &kp PIPE  &kp EXCL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH   &kp ASTRK  &kp UNDER          &kp EQUAL  &trans  &trans
 &trans  &trans     &trans    &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp SQT    &kp DOUBLE_QUOTES  &kp SEMI   &trans  &trans
-&trans  &trans     &trans    &trans    &trans                &trans                 &trans     &trans     &mo 3              &trans     &trans  &trans
+&trans  &trans     &trans    &trans    &trans                &trans                 &trans     &mo 3      &kp RIGHT_SHIFT    &trans     &trans  &trans
                    &trans    &trans    &trans                &trans                 &trans     &trans     &trans             &trans
             >;
 
