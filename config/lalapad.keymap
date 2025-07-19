@@ -197,7 +197,7 @@
 &trans  &trans     &trans    &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans     &trans             &trans     &trans  &trans
 &trans  &kp TILDE  &kp PIPE  &kp EXCL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH   &kp ASTRK  &kp UNDER          &kp EQUAL  &trans  &trans
 &trans  &trans     &trans    &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp SQT    &kp DOUBLE_QUOTES  &kp SEMI   &trans  &trans
-&trans  &trans     &trans    &trans    &trans                &trans                 &trans     &mo 3      &kp RIGHT_SHIFT    &trans     &trans  &trans
+&trans  &trans     &trans    &trans    &mo 6                 &trans                 &trans     &mo 3      &kp RIGHT_SHIFT    &trans     &trans  &trans
                    &trans    &trans    &trans                &trans                 &trans     &trans     &trans             &trans
             >;
 
@@ -213,11 +213,11 @@
                 <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
 
             bindings = <
-&none   &none   &none      &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
-&trans  &none   &none      &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LEFT_COMMAND
-&trans  &trans  &trans     &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_SUBTRACT  &kp KP_PLUS   &kp EQUAL     &kp PERCENT   &trans        &trans
-&trans  &trans  &trans     &none     &mo 7                 &none                  &trans           &kp HOME      &mo 1         &trans        &trans        &trans
-                &kp RIGHT  &kp DOWN  &kp LEFT              &kp UP                 &trans           &trans        &trans        &trans
+&none   &none   &none      &none       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
+&trans  &none   &none      &none       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LEFT_COMMAND
+&trans  &trans  &kp K_CUT  &kt K_COPY  &kp K_PASTE           &kp RIGHT_BRACE        &kp KP_SUBTRACT  &kp KP_PLUS   &kp EQUAL     &kp PERCENT   &trans        &trans
+&trans  &trans  &trans     &none       &mo 7                 &none                  &trans           &kp HOME      &mo 1         &trans        &trans        &trans
+                &kp RIGHT  &kp DOWN    &kp LEFT              &kp UP                 &trans           &trans        &trans        &trans
             >;
         };
 
@@ -241,7 +241,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp RCLK  &mkp MCLK  &mo 5   &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &mkp MB4   &mkp MB5   &none   &none
+&mo 2   &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &mkp MB4   &mkp MB5   &none   &kp RIGHT_SHIFT
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans
             >;
